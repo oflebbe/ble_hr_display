@@ -1,0 +1,10 @@
+common:
+  harness: display
+  tags: display
+sample:
+  name: Bluetooth Central HR With Display
+tests:
+  sample.bluetooth.central_hr:
+    arch_whitelist: x86
+    harness: bluetooth
+    tags: bluetooth
